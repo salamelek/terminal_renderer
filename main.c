@@ -64,6 +64,15 @@ void print_img(int w, int h, unsigned char *pixels) {
 }
 
 
+/*
+Scales the image so that it fits in the terminal window
+Also pads it if the lines are not even
+*/
+void scale_image(int w, int h, unsigned char *pixels) {
+    
+}
+
+
 int main() {
     FILE *img = fopen("test_img_mini.ppm", "rb");
     
